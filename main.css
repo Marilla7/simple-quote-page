@@ -4,16 +4,31 @@
     box-sizing: border-box;
     font-size: 100%;
   }
-  img {
+
+img {
     max-width: 100%;
     max-height: 100%;
 }
 
 h1 {
-    margin-top: -55%;
+    margin: -55% 10% 0% 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: larger;
+    
 }
 
 h2 {
     margin-top: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: light;
+    font-size: small;
+    font-style: italic;
 }
+
+h1, h2 {
+    text-align: center;
+}
+
+
 
