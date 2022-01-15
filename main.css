@@ -5,11 +5,15 @@
     font-size: 100%;
   }
 
-img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('assets/freedom.jpg') no-repeat center;
+    background-size: cover;
+    background-color: lightblue;
+  }
+    
 h1 {
     margin: -55% 10% 0% 10%;
     font-family: Arial, Helvetica, sans-serif;
@@ -21,7 +25,7 @@ h1 {
 h2 {
     margin-top: 5%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: light;
+    font-weight: lighter;
     font-size: small;
     font-style: italic;
 }
